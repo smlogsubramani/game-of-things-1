@@ -1,38 +1,191 @@
-.App {
+.space{
+  margin-top: 100px;
+}
+.space1{
+  margin-top: 30px;
+}
+.space2{
+  margin-top: 20px;
+}
+
+.heading{
+font-size: 30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight:400;
+text-align: left; 
+font-weight: bold;
+}
+.sub-heading{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-weight:400;
+  text-align: left;
+  }
+.blend{
+  border-radius: 5px;
+}
+.input{
+  
+  border-radius: 5px;
+  height: 40px;
+  }
+.boton{
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(9, 9, 189);
+  font-size: large;
   text-align: center;
+  width: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login{
+  text-align: justify;
+  margin-left: 65px;
 }
+.image{
+  background-size: cover;
+  height:131%;
+  width: 122%;
+  margin-bottom: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
+.subscript{
+  text-align: center;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* ===============================================================================================
+=====================================sigup css=================================================
+=============================================================================================== */
+.boton1{
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(16, 16, 223);
+  font-size: large;
+  text-align: center;
+  width: 190px;
+}
+.signup{
+  text-align: justify;
+  margin-left: 80px;
+}
+.input1{
+  
+  border-radius: 5px;
+  height: 40px;
+  text-align: left;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .subscript1{
+    text-align: center;
+    font-weight: 400;
+    margin-left: 60px;
   }
+  .image1{
+    background-size: cover;
+    height:104.3%;
+    width: 120%;
+    margin-bottom: 20px;
+  
+    }
+
+
+    /* ============================================================================================
+    ================================= land page ================================================
+    ============================================================================================= */
+  .navbar{
+    background-color:blue;
+    font-size: large;
+    font-weight:large;
+    border-radius: 5px;
+  }
+  .navbar-brand{
+    margin-left: 10px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+
+  .nav-link{
+    margin-left: 30px;
+    font-weight: 700;
+    
+  }
+  .land-content{
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  }
+  .land-box{
+    height: 150px;
+    width:100%;
+    border: 2px solid black;
+    background-color: rgb(222, 222, 222);
+  }
+  .image-box{
+    margin-top: 14px;
+    margin-left: 15px;
+    height: 120px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .img-txt{
+    text-align: center;
+    font-size: small;
+    margin-top: 20%;
+
+  }
+.box-cntx{
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.dummy-text{
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+  margin-left: 100px;
+}
+.dummy-text1{
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+  
+}
+.dummy-text2{
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+ 
+}
+
+.contact-owner{
+  font-size: large;
+  text-align: center;
+  font-weight: 400;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  background-color: rgb(16, 16, 137);
+  color: aliceblue;
+  border-radius: 9px;
+  margin-left: 70px;
+}
+.cost-cntx{
+ margin-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
